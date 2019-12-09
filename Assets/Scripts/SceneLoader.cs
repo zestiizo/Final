@@ -14,4 +14,15 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("Level 1");
     }
+
+    public void LoadLevelTwo()
+    {
+        SceneManager.LoadScene("Level 2");
+    }
+
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene("Menu");
+        Cursor.visible = true;
+    }
 }

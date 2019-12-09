@@ -6,7 +6,7 @@ public class Menu : MonoBehaviour
 {
     [SerializeField] GameObject mainMenu;
     [SerializeField] GameObject creditMenu;
-    
+
     public void ShowMainMenu()
     {
         mainMenu.SetActive(true);
